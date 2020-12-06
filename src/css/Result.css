@@ -1,0 +1,44 @@
+.Result {
+    margin: 1em;
+}
+
+.welcome {
+    font-size: 2rem;
+}
+
+.total-score {
+    border: 2px solid hsl(30, 80%, 40%);
+    padding: .3em;
+    /* Vertical margins collapse 😏 */
+    margin: 1em auto;
+    width: fit-content;
+}
+
+.correction {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    margin: .75em 0;
+}
+
+.missed-question {
+    color: hsl(30, 80%, 40%);
+    font-weight: 600;
+}
+
+.fa-arrow-circle-right {
+    margin-right: .5em;
+}
+
+.option-correct {
+    color: hsl(120, 60%, 40%);
+}
+
+.option-incorrect {
+    color: hsl(0, 70%, 50%);
+}
+
+.option-correct,
+.option-incorrect {
+    font-style: italic;
+    font-weight: 600;
+}

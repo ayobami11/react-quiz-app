@@ -1,0 +1,11 @@
+.quiz-btn {
+    background: hsl(120, 60%, 50%);
+    color: hsl(0, 100%, 100%);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 2em auto;
+    outline: none;
+    padding: .5em 1em;
+}

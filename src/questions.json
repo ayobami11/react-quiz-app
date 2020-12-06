@@ -1,0 +1,101 @@
+[
+    {   "id": 1,
+        "question": "Who is the father of JavaScript?",
+        "answers": [
+            {"option": "Charles Babbage", "isCorrect": false, "selected": false},
+            {"option": "Brendan Eich", "isCorrect": true, "selected": false},
+            {"option": "Douglas Crockford", "isCorrect": false, "selected": false},
+            {"option": "Steve Jobs", "isCorrect": false, "selected": false}
+        ]
+    },
+    {
+        "id": 2,
+        "question": "When was JavaScript invented?",
+        "answers": [
+            {"option": "1989", "isCorrect": false, "selected": false},
+            {"option": "1996", "isCorrect": false, "selected": false},
+            {"option": "1992", "isCorrect": false, "selected": false},
+            {"option": "1995", "isCorrect": true, "selected": false}
+        ]
+    },
+    {
+        "id": 3,
+        "question": "What is the output of the following: NaN == NaN?",
+        "answers": [
+            {"option": "false", "isCorrect": true, "selected": false},
+            {"option": "NaN", "isCorrect": false, "selected": false},
+            {"option": "true", "isCorrect": false, "selected": false},
+            {"option": "undefined", "isCorrect": false, "selected": false}
+        ]
+    },
+    {
+        "id": 4,
+        "question": "What is the value of typeof null?",
+        "answers": [
+            {"option": "String", "isCorrect": false, "selected": false},
+            {"option": "Null", "isCorrect": false, "selected": false},
+            {"option": "Object", "isCorrect": true, "selected": false},
+            {"option": "Undefined", "isCorrect": false, "selected": false}
+        ]
+    },
+    {
+        "id": 5,
+        "question": "What was JavaScript's first code name?",
+        "answers": [
+            {"option": "LiveScript", "isCorrect": false, "selected": false},
+            {"option": "JavaScript", "isCorrect": false, "selected": false},
+            {"option": "TypeScript", "isCorrect": false, "selected": false},
+            {"option": "Mocha", "isCorrect": true, "selected": false}
+        ]
+    },
+    {
+        "id": 6,
+        "question": "What is the value of typeof NaN?",
+        "answers": [
+            {"option": "Object", "isCorrect": false, "selected": false},
+            {"option": "Number", "isCorrect": true, "selected": false},
+            {"option": "Null", "isCorrect": false, "selected": false},
+            {"option": "String", "isCorrect": false, "selected": false}
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Identify the falsy value:",
+        "answers": [
+            {"option": "''", "isCorrect": true, "selected": false},
+            {"option": "'0'", "isCorrect": false, "selected": false},
+            {"option": "' '", "isCorrect": false, "selected": false},
+            {"option": "'null'", "isCorrect": false, "selected": false}
+        ]
+    },
+    {
+        "id": 8,
+        "question": "When was the ES6 version of JavaScript released?",
+        "answers": [
+            {"option": "2018", "isCorrect": false, "selected": false},
+            {"option": "2017", "isCorrect": false, "selected": false},
+            {"option": "2016", "isCorrect": false, "selected": false},
+            {"option": "2015", "isCorrect": true, "selected": false}
+        ]
+    },
+    {
+        "id": 9,
+        "question": "0.1 + 0.2 != 0.3",
+        "answers": [
+            {"option": "true", "isCorrect": true, "selected": false},
+            {"option": "undefined", "isCorrect": false, "selected": false},
+            {"option": "false", "isCorrect": false, "selected": false},
+            {"option": "NaN", "isCorrect": false, "selected": false}
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Another name for the conditional operator is:",
+        "answers": [
+            {"option": "Unary operator", "isCorrect": false, "selected": false},
+            {"option": "Binary operator", "isCorrect": false, "selected": false},
+            {"option": "Ternary operator", "isCorrect": true, "selected": false},
+            {"option": "Conditional statement", "isCorrect": false, "selected": false}
+        ]
+    }
+]
