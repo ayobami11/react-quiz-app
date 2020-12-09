@@ -1,7 +1,8 @@
 .question-container {
     background: hsl(0, 0%, 100%);
-    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, .1);
-    margin-top: 2.5em;
+    background-clip: padding-box;
+    border: 1em solid hsla(0, 0%, 100%, .5);
+    margin: 2.5em 0 1.5em;
     padding: 2em 1em;
 }
 
@@ -47,6 +48,8 @@
 /* Media queries */
 @media (min-width: 600px) {
     .question-container {
+        border: 1em solid hsla(0, 0%, 100%, .75);
+        outline: 1em solid hsla(0, 0%, 100%, .5);
         margin-top: 5em;
         padding: 2em;
     }

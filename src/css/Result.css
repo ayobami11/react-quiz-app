@@ -1,23 +1,46 @@
 .Result {
-    margin: 1em;
+    animation-name: fade-in;
+    animation-duration: 2s;
 }
 
-.welcome {
-    font-size: 2rem;
+.corrections-container,
+.welcome-section {
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.corrections-container {
+    background: rgb(28, 226, 167);
+}
+
+.welcome-section {
+    background: hsl(0, 0%, 100%);
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 100px;
+    margin: 0.75em;
 }
 
 .total-score {
     border: 2px solid hsl(30, 80%, 40%);
-    padding: .3em;
+    padding: 0.3em;
     /* Vertical margins collapse 😏 */
     margin: 1em auto;
     width: fit-content;
 }
 
 .correction {
+    border: 3px dashed hsl(30, 80%, 40%);
     color: hsl(0, 0%, 100%);
     font-weight: 400;
-    margin: .75em 0;
+    margin: 0.75em 0;
+    padding: 0.5em;
 }
 
 .missed-question {
@@ -26,7 +49,7 @@
 }
 
 .fa-arrow-circle-right {
-    margin-right: .5em;
+    margin-right: 0.5em;
 }
 
 .option-correct {
@@ -41,4 +64,14 @@
 .option-incorrect {
     font-style: italic;
     font-weight: 600;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

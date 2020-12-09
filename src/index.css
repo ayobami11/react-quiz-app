@@ -1,6 +1,7 @@
 /* Font used - Nunito */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+/* General styles */
 * {
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
@@ -8,16 +9,21 @@
     padding: 0;
 }
 
-/* General styles */
 html {
     font-size: 16px;
 }
 
 body {
-    background: hsl(180, 100%, 40%);
+    background: linear-gradient(hsla(180, 100%, 50%, .2), hsla(180, 100%, 50%, .2)), url('./images/bg-image.jpg');
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: hsl(180, 100%, 40%); */
     color: hsl(0, 0%, 20%);
     font-size: 1.25rem;
     font-weight: 700;
+    min-height: 100vh;
+    object-fit: cover;
 }
 
 /* Media queries */

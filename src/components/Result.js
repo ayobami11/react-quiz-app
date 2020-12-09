@@ -4,6 +4,9 @@ import { connect } from 'react-redux';
 
 import '../css/Result.css';
 
+import jsLogo from '../images/js-logo.png';
+import reactLogo from '../images/react-logo.png';
+
 /**
  * The Result component.
  * Prepares the results of the quiz upon completion.
@@ -55,7 +58,7 @@ const Result = ({
     return (
         <div className="Result">
             {currentQuestionIndex ? (
-                <>
+                <div className="corrections-container">
                     <p className="total-score">
                         Total score: {totalScore} / {questions.length}
                     </p>
@@ -63,9 +66,15 @@ const Result = ({
                         {/* React automatically handles the keys of the array elements */}
                         {React.Children.toArray(quizCorrections)}
                     </div>
-                </>
+                </div>
             ) : (
-                <p className="welcome">Welcome to the quiz</p>
+                <div className="welcome-section">
+                    <h1>A Simple JavaScript Quiz</h1>
+                    <div className="logos">
+                    <img className="logo" src={jsLogo} alt="JavaScript logo" />
+                    <img className="logo" src={reactLogo} alt="React logo" />
+                    </div>
+                </div>
             )}
         </div>
     );
